@@ -1,0 +1,13 @@
+{
+	"name": "gRPC",
+	"dockerComposeFile": [
+		"../compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/workspaces",
+	"customizations": {
+		"vscode": {
+			"extensions": ["golang.go", "zxh404.vscode-proto3"]
+		}
+	}
+}
